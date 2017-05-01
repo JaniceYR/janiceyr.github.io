@@ -30,10 +30,10 @@
         </ul>
       </nav>
     </header>
-    <br>
+
     <aside>
       <h2 id="ingredients">Ingredients</h2>
-      <ul>
+      <ul class="ingredients-list">
         <li>Egg</li>
         <li>Soy source</li>
         <li>Scallions</li>
@@ -41,7 +41,7 @@
         <li>(Extra for taste)Saeu-jeot or Myeongnan-jeot</li>
       </ul>
     </aside>
-    <br>
+
     <section>
       <figure>
         <h2>Gyeran-jjim(계란찜) </h2>
@@ -50,12 +50,12 @@
           <a href = "https://en.wikipedia.org/wiki/Gyeran-jjim">Gyeran-jjim Image</a>
         </figcaption>
       </figure>
-      <br>
+
       <h2 id="description"> Description </h2>
       <p>
         Gyeran-jjim (계란찜) or steamed eggs is a type of jjim, Korean steamed dish. It is a custardy, casserole-like banchan (side dish), often seasoned with saeu-jeot (salted shrimp) or myeongnan-jeot (salted pollock roe) and topped with scallions and toasted sesame seeds. The ideal gyeran-jjim is light and fluffy.
       </p>
-      <br>
+
       <h2 id="directions">Directions</h2>
       <ol>
         <li>
@@ -69,16 +69,15 @@
         </li>
         (https://www.maangchi.com/recipe/gyeranjjim)
       </ol>
-    </section>
-    <br>
+
 
   <section id="reviews">
     <h2>Reviews</h2>
     <form id="review-form" action="/reviews" method="post">
       <label for="name">Name:</label>
       <input id="name" type="text" name="name">
-      <br>
-      <label for="rating">Rating:</label>
+
+      <!-- <label for="rating">Rating:</label> -->
         1<input type="radio" name="rating" value = '1' checked>
         2<input type="radio" name="rating" value = '2'>
         3<input type="radio" name="rating" value = '3'>
@@ -86,9 +85,7 @@
         5<input type="radio" name="rating" value = '5'>
 
 
-      <br>
-
-      <label for="cooking_expertise">Cooking Expertise</label>
+      <!-- <label for="cooking_expertise">Cooking Expertise</label> -->
         <select name="cooking_expertise">
           <option value="--Select Cooking Expertise--" disabled= "true" selected="true">--Select Cooking Expertise--</option>
           <option value="Sometimes Cook" >Sometimes Cook</option>
@@ -97,19 +94,17 @@
           <option value="Professional Chef" >Professional Chef</option>
         </select>
 
-
-      <br>
-
       <label>Review
         <textarea name="review"></textarea>
       </label>
 
-      <br>
 
       <input type="submit" value="Submit Review">
 
       </form>
-    </section>
+
+    </section>    </section>
+
 
     <footer> by. Janice Lee  </footer>
   </body>
